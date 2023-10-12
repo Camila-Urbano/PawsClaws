@@ -1,0 +1,202 @@
+@media (max-width: 1332px)
+{
+    .eligenos .imagenes
+    {
+        display: none;
+    }
+
+    .eligenos
+    {
+        display: grid;
+        place-items: center;
+    }
+
+    .eligenos .contenido p 
+    {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 1132px)
+{
+    .inicio
+    {
+        display: grid;
+        place-items: center;
+    }
+
+    .inicio .imagen_inicio
+    {
+        display: none;
+    }
+
+    .eligenos .contenido
+    {
+        width: 80%;
+    }
+
+    article .sobre
+    {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 634px)
+{
+    article .sobre
+    {
+        width: 100%;
+    }
+
+    article
+    {
+        padding: 0px 0px;
+    }
+
+    .inicio .texto
+    {
+        width: 100%;
+    }
+
+    .inicio .texto p
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    section h4
+    {
+        font-size: 14px;
+    }
+
+    .eligenos
+    {
+        padding: 10px;
+    }
+
+    .eligenos .contenido
+    {
+        padding: 0;
+        width: 100%;
+    }
+
+    .servicios p
+    {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    
+    article p
+    {
+        font-size: 12px;
+    }
+
+    .contenido h1 
+    {
+        font-size: 15px;
+    }
+
+    .eligenos .contenido p 
+    {
+        font-size: 12px;
+    }
+
+    .cita form
+    {
+        width: 90%;
+    }
+
+    .cita img
+    {
+        width: 60px;
+        height: 70px;
+    }
+
+    .cita .nombre
+    {
+        font-size: 20px;
+    }
+
+    .cita .nombre span
+    {
+        font-size: 15px;
+    }
+    
+    .cita p
+    {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 415px)
+{
+    .eligenos .contenido .cont span
+    {
+        font-size: 20px;
+    }
+
+    .eligenos .contenido .cont p
+    {
+        font-size: 12px;
+    }
+
+    .servicios .nuestros_servicios .card
+    {
+        width: 250px;
+    }
+
+    .card .titulo h3
+    {
+        font-size: 14px;
+    }
+
+    .card .descripcion_servicio p
+    {
+        font-size: 12px;
+    }
+
+    .servicios .nuestros_servicios
+    {
+        padding: 0px;
+    }
+
+    .servicios .nuestros_servicios .card
+    {
+        padding: 5px;
+    }
+
+    .servicios p 
+    {
+        width: 200px;
+    }
+
+    .inicio .texto p
+    {
+        font-size: 10px;
+    }
+
+    .inicio .texto img 
+    {
+        width: 100px;
+        height: 110px;
+    }
+
+    .inicio .texto h2
+    {
+        font-size: 25px;
+    }
+
+    .texto h2 span
+    {
+        font-size: 15px;
+    }
+
+    .inicio .texto h4
+    {
+        font-size: 12px;
+    }
+    
+}

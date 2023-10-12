@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Bigelow+Rules&family=Griffy&family=Nosifer&family=Poppins:ital,wght@0,400;1,300&family=Sevillana&display=swap');
+
+header
+{
+    box-shadow: 0px 0px 30px -20px #000000;
+}
+
+.cita
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: grid;
+    place-items: center;
+}
+
+.cita img
+{
+    width: 100px;
+    height: 110px;
+}
+
+.cita .nombre
+{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.cita .nombre span
+{
+    font-size: 20px;
+    color: #fdbd4d;
+}
+
+.cita h2
+{
+    color: #7fc1cdc9;
+    text-align: center;
+}
+
+.cita p
+{
+    font-size: 12px;
+    text-align: center;
+}
+
+.cita .datos
+{
+    margin-bottom: 50px;
+}
+
+.cita form
+{
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    border: 2px #7fc1cdc9 solid;
+}
+
+form div
+{
+    margin: 10px;
+    width: 100%;
+    display: grid;
+}
+
+div label
+{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+div input
+{
+    padding: 8px 3px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #dbdada;
+}
+
+form .aceptar
+{
+    display: flex;
+    margin-top: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+form .aceptar p
+{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #207483;
+}
+
+#agendar
+{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: #7fc1cdc9 2px solid;
+    color: #7fc1cdc9;
+    background-color: transparent;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+#agendar:hover
+{
+    background-color: #7fc1cdc9;
+    color: #fff;
+}
